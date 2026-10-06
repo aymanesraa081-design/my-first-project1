@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Habbda ever - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <!-- 1. Text -->
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+
+                <!-- 2. Email -->
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+
+                <!-- 3. Number -->
+                <div>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" min="1">
+                </div>
+                <br>
+
+                <!-- 4. Date -->
+                <div>
+                    <label for="birthdate">Birth Date:</label><br>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>
+                <br>
+
+                <!-- 5. Radio buttons -->
+                <div>
+                    <p>Gender:</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <br>
+
+                <!-- 6. Checkboxes -->
+                <div>
+                    <p>Interests:</p>
+                    <input type="checkbox" id="coding" name="interests" value="coding">
+                    <label for="coding">Coding</label>
+                    <input type="checkbox" id="design" name="interests" value="design">
+                    <label for="design">Design</label>
+                </div>
+                <br>
+
+                <!-- 7. Dropdown menu (Select) -->
+                <div>
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="support">Support</option>
+                    </select>
+                </div>
+                <br>
+
+                <!-- 8. Large text box (Textarea) -->
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                </div>
+                <br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Blog</p>
+    </footer>
+</body>
+</html>
